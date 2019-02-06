@@ -1,0 +1,60 @@
+html { 
+  
+}
+
+body {
+	font-family: "sans-serif";
+	color: #000000;
+	background-color: #FFFFFF;
+	background: url(WhitePlnRoses.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+	font-weight: normal;
+	font-family: "sans-serif";
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	font-family: "sans-serif";
+	margin: 3px;
+	padding: 0px;
+}
+
+img {
+	border-style: none;
+	padding: 5px;
+	image-orientation: 90deg;
+}
+
+div.centerText {
+	text-align: center;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+div.rightText {
+	text-align: right;
+}
+
+table, th, td {
+  
+}
+
+tr:nth-child(even) {
+	background-color: #C0C0C0;
+}
+
+
+tr:nth-child(odd) {
+	background-color: #00FFFF;
+}
